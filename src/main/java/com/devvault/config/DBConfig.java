@@ -13,11 +13,11 @@ import javax.sql.DataSource;
 @PropertySource("classpath:db.properties")
 public class DBConfig {
 
-    @Value("${db.driver}")   private String driver;
-    @Value("${db.url}")      private String url;
-    @Value("${db.username}") private String username;
-    @Value("${db.password}") private String password;
-
+	@Value("${db.driver}")                  private String driver;
+	@Value("${DB_URL:${db.url}}")           private String url;
+	@Value("${DB_USER:${db.username}}")     private String username;
+	@Value("${DB_PASSWORD:${db.password}}") private String password;
+	
     @Bean
     public DataSource dataSource() {
         DriverManagerDataSource ds = new DriverManagerDataSource();
