@@ -1,0 +1,233 @@
+/* =====================================
+   CARD
+   ===================================== */
+
+.card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    padding: var(--space-6);
+}
+
+.card:hover {
+    box-shadow: var(--shadow-md);
+}
+
+
+/* =====================================
+   BUTTON BASE
+   ===================================== */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-2);
+
+    min-height: 40px;
+    padding: 0 var(--space-4);
+
+    border: none;
+    border-radius: var(--radius-md);
+
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+
+/* =====================================
+   PRIMARY BUTTON
+   ===================================== */
+
+.btn-primary {
+    color: var(--text-white);
+    background: var(--primary);
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+}
+
+
+/* =====================================
+   SECONDARY BUTTON
+   ===================================== */
+
+.btn-secondary {
+    color: var(--text-primary);
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+    background: var(--bg-hover);
+}
+
+
+/* =====================================
+   DANGER BUTTON
+   ===================================== */
+
+.btn-danger {
+    color: var(--text-white);
+    background: var(--danger);
+}
+
+
+/* =====================================
+   SUCCESS BUTTON
+   ===================================== */
+
+.btn-success {
+    color: var(--text-white);
+    background: var(--success);
+}
+
+
+/* =====================================
+   BADGE
+   ===================================== */
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 3px 9px;
+
+    border-radius: 999px;
+
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+}
+
+.badge-primary {
+    color: var(--primary-dark);
+    background: var(--primary-light);
+}
+
+.badge-success {
+    color: #047857;
+    background: var(--success-light);
+}
+
+.badge-warning {
+    color: #b45309;
+    background: var(--warning-light);
+}
+
+.badge-danger {
+    color: #b91c1c;
+    background: var(--danger-light);
+}
+
+
+/* =====================================
+   DIVIDER
+   ===================================== */
+
+.divider {
+    height: 1px;
+    background: var(--border);
+    margin: var(--space-6) 0;
+}
+
+/* =====================================
+   ALERT
+   ===================================== */
+
+.alert {
+    display: flex;
+    align-items: center;
+
+    padding: 12px 16px;
+
+    margin-bottom: 20px;
+
+    border-radius: var(--radius-md);
+
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+}
+
+
+/* =====================================
+   SUCCESS ALERT
+   ===================================== */
+
+.alert-success {
+    color: #047857;
+    background: var(--success-light);
+    border: 1px solid #a7f3d0;
+}
+
+
+/* =====================================
+   DANGER ALERT
+   ===================================== */
+
+.alert-danger {
+    color: #b91c1c;
+    background: var(--danger-light);
+    border: 1px solid #fecaca;
+}
+
+
+/* =====================================
+   NAVBAR
+   ===================================== */
+
+.navbar {
+    height: var(--navbar-height);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 var(--space-6);
+
+    background: var(--bg-surface);
+
+    border-bottom: 1px solid var(--border);
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-brand a {
+    color: var(--primary);
+
+    font-size: 20px;
+    font-weight: 800;
+
+    letter-spacing: -0.5px;
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+
+/* =====================================
+   FOOTER
+   ===================================== */
+
+.footer {
+    padding: var(--space-8) 0;
+
+    border-top: 1px solid var(--border);
+
+    background: var(--bg-surface);
+
+    color: var(--text-muted);
+
+    font-size: var(--font-size-sm);
+
+    text-align: center;
+}

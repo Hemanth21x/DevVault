@@ -1,0 +1,43 @@
+/* =====================================
+   TABLET
+   ===================================== */
+
+@media (max-width: 900px) {
+
+    .main-content {
+        padding: var(--space-6);
+    }
+
+    .container {
+        padding: 0 var(--space-4);
+    }
+}
+
+
+/* =====================================
+   MOBILE
+   ===================================== */
+
+@media (max-width: 600px) {
+
+    .main-content {
+        padding: var(--space-4);
+    }
+
+    .page-title {
+        font-size: var(--font-size-xl);
+    }
+
+    .card {
+        padding: var(--space-4);
+        border-radius: var(--radius-md);
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .form-actions {
+        flex-direction: column;
+    }
+}

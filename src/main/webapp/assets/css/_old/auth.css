@@ -1,0 +1,62 @@
+/* =========================================
+   FORM LABEL ROW
+   ========================================= */
+
+.form-label-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-label-row .form-label {
+    margin-bottom: var(--space-2);
+}
+
+
+/* =========================================
+   FORGOT PASSWORD
+   ========================================= */
+
+.forgot-password {
+    margin-bottom: var(--space-2);
+
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+
+    color: var(--primary);
+}
+
+.forgot-password:hover {
+    color: var(--primary-dark);
+}
+
+
+/* =========================================
+   REMEMBER ME
+   ========================================= */
+
+.remember-row {
+    margin-top: calc(var(--space-2) * -1);
+    margin-bottom: var(--space-2);
+}
+
+.checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+
+    color: var(--text-secondary);
+
+    font-size: var(--font-size-sm);
+
+    cursor: pointer;
+}
+
+.checkbox-label input {
+    width: 16px;
+    height: 16px;
+
+    accent-color: var(--primary);
+
+    cursor: pointer;
+}

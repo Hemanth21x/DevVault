@@ -1,0 +1,127 @@
+:root {
+
+    /* ================================
+       BRAND
+       ================================ */
+
+    --primary: #6366f1;
+    --primary-dark: #4f46e5;
+    --primary-light: #eef2ff;
+
+
+    /* ================================
+       BACKGROUND
+       ================================ */
+
+    --bg-body: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-sidebar: #0f172a;
+    --bg-hover: #f1f5f9;
+
+
+    /* ================================
+       TEXT
+       ================================ */
+
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+    --text-muted: #94a3b8;
+    --text-white: #ffffff;
+
+
+    /* ================================
+       BORDER
+       ================================ */
+
+    --border: #e2e8f0;
+    --border-light: #f1f5f9;
+
+
+    /* ================================
+       STATUS
+       ================================ */
+
+    --success: #10b981;
+    --success-light: #ecfdf5;
+
+    --warning: #f59e0b;
+    --warning-light: #fffbeb;
+
+    --danger: #ef4444;
+    --danger-light: #fef2f2;
+
+    --info: #3b82f6;
+    --info-light: #eff6ff;
+
+
+    /* ================================
+       SPACING
+       ================================ */
+
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 20px;
+    --space-6: 24px;
+    --space-8: 32px;
+    --space-10: 40px;
+    --space-12: 48px;
+
+
+    /* ================================
+       BORDER RADIUS
+       ================================ */
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-xl: 20px;
+
+
+    /* ================================
+       SHADOW
+       ================================ */
+
+    --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+
+    --shadow-md:
+        0 4px 12px rgba(15, 23, 42, 0.08);
+
+    --shadow-lg:
+        0 10px 30px rgba(15, 23, 42, 0.10);
+
+
+    /* ================================
+       TYPOGRAPHY
+       ================================ */
+
+    --font-family:
+        "Inter",
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 24px;
+    --font-size-2xl: 32px;
+
+
+    /* ================================
+       TRANSITION
+       ================================ */
+
+    --transition:
+        0.2s ease;
+
+
+    /* ================================
+       LAYOUT
+       ================================ */
+
+    --navbar-height: 64px;
+    --sidebar-width: 240px;
+}
